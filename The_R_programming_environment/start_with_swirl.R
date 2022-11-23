@@ -30,10 +30,8 @@ m <- matrix(1:6, nrow = 2, ncol = 3)
 x <- 1:3
 y <- 10:12
 cbind(x, y)
-x  y
-[1,] 1 10
-[2,] 2 11
-[3,] 3 12
+x  
+y
 rbind(x, y) 
 vector("list",length = 5)
 
@@ -44,7 +42,6 @@ table(x)
 
 ## See the underlying representation of factor
 unclass(x)  
-[1] 2 2 1 2 1
 attr(x,"levels")
 
 
