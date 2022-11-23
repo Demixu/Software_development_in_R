@@ -73,4 +73,4 @@ m
 x <- list("Los Angeles" = 1, Boston = 2, London = 3) 
 x
 names(x)
-attributes(x) 
+attributes(x) ## look at the characteristics of the target R objects
